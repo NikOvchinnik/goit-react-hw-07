@@ -1,0 +1,30 @@
+.contactItem {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  min-width: 200px;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contactTextContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+
+.contactBtnDelete {
+  margin: auto;
+  margin-right: 0;
+  padding: 4px 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
